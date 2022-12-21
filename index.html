@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cauto Project</title>
+    <!-- links -->
+    <link rel="stylesheet" href="scss/style.css">
+    <link rel="shortcut icon" href="img/logo.svg" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- script -->
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div class="headerBack">
+        <!-- Navbar -->
+        <nav>
+            <div class="contNav">
+                <div class="contLink">
+                    <div class="contNavLink">
+                        <a href="#"><img src="img/logo.svg" alt="logo" id="logo"></a>
+                        <ul class="navLinks">
+                            <li class="link"><a href="#eco">Economia Circolare</a></li>
+                            <li class="link"><a href="#fast">Fast Fashion</a></li>
+                            <li class="link"><a href="#green">Green Washing</a></li>
+                            <li class="link"><a href="#wrad">Wrad</a></l>
+                        </ul>
+                            <svg xmlns="http://www.w3.org/2000/svg" id="burger" viewBox="0 0 24 24">
+                                <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z"></path>
+                            </svg>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <!-- End Navbar -->
+        <!-- First -->
+        <section class="sectFirst">
+            <div class="contFirst">
+                <img src="img/mainImg.svg" alt="first image" id="mainImg">
+                <div>
+                    <h1 id="titleFirst">Buy Less. <br> Choose Well</h1>
+                    <p>Il Fast Fashion <br> e le sue conseguenze</p>
+                </div>
+            </div>
+        </section>
+        <!-- End First -->
+    </div>
+
+    <!-- Footer ma non letteralmente -->
+    <footer>
+        <div class="contFooter">
+            <p>
+                Lavoro realizzato dalla 3'A SIA
+                <a href="https://www.donmilanimontichiari.edu.it/" rel="noopener noreferrer" target="_blank">
+                    Don Milani Montichiari
+                </a> <br>
+                in collaborazione con la cooperativa sociale
+                <a href="https://www.cauto.it/" target="_blank" rel="noopener noreferrer">
+                    Cauto
+                </a>
+            </p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Main -->
+    <main>
+
+        <!-- Economia -->
+        <section class="sectEco" id="eco">
+            <div class="contEco">
+                <img src="img/eco circolare.webp" alt="economia" id="imgEco">
+                <div class="textEco">
+                    <h3>Economia Circolare</h3>
+                    <p>
+                        Un nuovo modello di economia che ci aiuterà ad impattare positivamente sul nostro pianeta
+                    </p>
+                    <div class="contMore">
+                        <a href="html/economia.html">
+                            Dai un'occhiata
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Economia -->
+
+        <!-- Fast Fashion -->
+        <section class="sectFast" id="fast">
+            <div class="contFast">
+                <img src="img/fast clothes.jpg" alt="fast fashion" id="imgFast">
+                <div class="textFast">
+                    <h3>Fast Fashion</h3>
+                    <p>
+                        Secondo te, cosa può succedere se una grande multinazionale effettua repentini cambi di moda?
+                    </p>
+                    <div class="contMore">
+                        <a href="html/fast.html">
+                            Scoprilo qui
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Fast Fashion -->
+
+        <!-- Green Marketing -->
+        <section class="sectGreen" id="green">
+            <div class="separatorGreen"></div>
+            <div class="contGreen">
+                <img src="img/lampadina green.png" id="imgGreen" alt="green marketing">
+                <div class="textGreen">
+                    <h3>Green Washing</h3>
+                    <p>
+                        Spieghiamo come grandi imprenditori riescano a rendere un prodotto appetibile
+                        per tutti le tipologie di consumatori
+                    </p>
+                    <div class="contMore">
+                        <a href="html/green.html">
+                            Approfondisci l'argomento
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End Green Marketing -->
+
+        <!-- Wrad -->
+        <section class="sectWrad" id="wrad">
+            <div class="contWrad">
+                <h1><a href="html/wrad.html">About Wrad</a></h1>
+                <img src="img/wradImg.png" alt="wrad" id="imgWrad">
+            </div>
+        </section>
+        <!-- End Wrad -->
+
+    </main>
+    <!-- End Main -->
+
+    <!-- Go Up -->
+    <div class="contGo">
+        <div class="goUp" onclick="onTop()">
+            <svg xmlns="http://www.w3.org/2000/svg" id="btnGo" viewBox="0 0 24 24">
+                <path d="M12,2C6.486,2,2,6.486,2,12s4.486,10,10,10s10-4.486,10-10S17.514,2,12,2z M16.293,14.707L12,10.414l-4.293,4.293 l-1.414-1.414L12,7.586l5.707,5.707L16.293,14.707z"></path>
+            </svg>
+        </div>
+    </div>
+    <!-- End Go Up -->
+
+</body>
+</html>
